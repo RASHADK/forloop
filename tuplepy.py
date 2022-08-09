@@ -1,0 +1,16 @@
+tuple = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(len(tuple))
+print(tuple)
+print(tuple[1:3])
+print(tuple[3:6])
+print(tuple[6:9])
+print(tuple.count(5))
+print(tuple.index(1))
+
+print("........................")
+fruits = ("apple", "banana", "cherry", "guava", "mango", "pineapple")
+a, b, *c = fruits
+print(a)
+print(b)
+print(c)
+print("////////////////////////")

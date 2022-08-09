@@ -1,0 +1,12 @@
+change_list=[1,2,3,4,5,"hello","Job",True,False,None,[1,2,3,4,5,6,7,8,9,10]]
+print(change_list)
+change_list[0]="Change1"
+print(change_list)
+change_list[-1]="Change_last"
+print(change_list)
+change_list[0:3]=["hello"]
+print(change_list)
+change_list.insert(4,"bobby")
+print(change_list)
+change_list.append("abcd")
+print(change_list)
